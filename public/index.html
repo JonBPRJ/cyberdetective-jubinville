@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>CyberDétective - Multijoueur</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <h1>CyberDétective - Multijoueur</h1>
+    <p>Choisissez votre équipe :</p>
+    <div class="teams">
+      <button onclick="startQuiz(0)">Équipe 1 🔴</button>
+      <button onclick="startQuiz(1)">Équipe 2 🟢</button>
+      <button onclick="startQuiz(2)">Équipe 3 🔵</button>
+      <button onclick="startQuiz(3)">Équipe 4 🟡</button>
+    </div>
+
+    <div id="quiz" style="display:none;">
+      <h2 id="question"></h2>
+      <div id="answers"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

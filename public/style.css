@@ -1,0 +1,12 @@
+body {
+  font-family: sans-serif;
+  background: #f0f8ff;
+  text-align: center;
+  padding: 20px;
+}
+
+.teams button, #answers button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
