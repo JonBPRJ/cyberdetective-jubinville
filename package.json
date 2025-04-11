@@ -1,7 +1,7 @@
 {
-  "name": "cyberdetective-multiplayer",
+  "name": "cyberdetective-jubinville",
   "version": "1.0.0",
-  "description": "CyberDetective quiz multiplayer backend",
+  "description": "Quiz cybersécurité multijoueur pour Plomberie Jubinville",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"

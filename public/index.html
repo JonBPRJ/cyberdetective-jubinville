@@ -2,23 +2,35 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>CyberDétective - Multijoueur</title>
+  <title>CyberDétective - Plomberie Jubinville</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div id="app">
-    <h1>CyberDétective - Multijoueur</h1>
-    <p>Choisissez votre équipe :</p>
-    <div class="teams">
-      <button onclick="startQuiz(0)">Équipe 1 🔴</button>
-      <button onclick="startQuiz(1)">Équipe 2 🟢</button>
-      <button onclick="startQuiz(2)">Équipe 3 🔵</button>
-      <button onclick="startQuiz(3)">Équipe 4 🟡</button>
+    <img src="https://www.plomberiejubinville.com/sites/default/files/logo-jubinville-.png"
+         alt="Logo Plomberie Jubinville" style="max-height: 100px; margin-bottom: 20px;">
+    <h1>🕵️‍♂️ CyberDétective - Édition <span class="company-name">Plomberie Jubinville</span></h1>
+    
+    <div id="setup">
+      <p>Bienvenue dans le quiz cybersécurité de <strong class="company-name">Plomberie Jubinville</strong> !</p>
+      <p>Choisissez votre équipe :</p>
+      <div class="teams">
+        <button onclick="joinTeam(0)">Équipe 1 🔴</button>
+        <button onclick="joinTeam(1)">Équipe 2 🟢</button>
+        <button onclick="joinTeam(2)">Équipe 3 🔵</button>
+        <button onclick="joinTeam(3)">Équipe 4 🟡</button>
+      </div>
     </div>
 
     <div id="quiz" style="display:none;">
       <h2 id="question"></h2>
       <div id="answers"></div>
+    </div>
+
+    <div id="scoreboard" style="display:none;">
+      <h2>🎉 Scores finaux - Merci d’avoir joué avec <span class="company-name">Plomberie Jubinville</span> !</h2>
+      <ul id="finalScores"></ul>
+      <h3 id="winner"></h3>
     </div>
   </div>
 

@@ -1,12 +1,43 @@
 body {
-  font-family: sans-serif;
-  background: #f0f8ff;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f8ff;
   text-align: center;
   padding: 20px;
 }
 
-.teams button, #answers button {
+h1 {
+  margin-bottom: 20px;
+}
+
+.teams button {
   margin: 10px;
+  padding: 15px 25px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#answers button {
+  display: block;
+  margin: 10px auto;
   padding: 10px 20px;
   font-size: 16px;
+}
+
+#nextBtn {
+  margin-top: 20px;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+.company-name {
+  color: #0077b6;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+.company-name {
+  color: #0077b6;
+  font-weight: bold;
+  text-transform: uppercase;
 }
